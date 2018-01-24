@@ -1,0 +1,21 @@
+.count-leave {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+}
+
+.count-leave-active {
+    transition: 500ms;
+    transform: translateY(-100%) scale(0);
+    opacity: 0;
+}
+
+.count-enter {
+    transform: translateY(100%) scale(0);
+    opacity: 0;
+}
+
+.count-enter-active {
+    transition: 500ms;
+    transform: translateY(0) scale(1);
+    opacity: 1;
+}
